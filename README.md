@@ -158,7 +158,7 @@ campus_trade/
 - Maven 3.6+
 - MySQL 5.7+
 - Node.js 14+ / npm
-- Redis（可选，用于缓存加速）
+- Redis
 
 ---
 
