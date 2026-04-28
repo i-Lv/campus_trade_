@@ -1,0 +1,124 @@
+# =============================================
+# Campus Trade 校园二手交易平台
+# =============================================
+
+# Java 编译产物
+campus-product-sys/target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Vue/Node.js
+campus-product-view/node_modules/
+campus-product-view/dist/
+campus-product-view/.nyc_output/
+campus-product-view/coverage/
+
+# npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+modules/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+bin/
+
+# IDE - VS Code
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# 日志文件
+*.log
+logs/
+
+# 上传文件目录（开发环境）
+pic/
+uploads/
+upload/
+
+# 本地配置文件
+application-local.yml
+application-local.yaml
+application-dev.yml
+application-dev.yaml
+*.local.yml
+*.local.yaml
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 测试报告
+TEST-*.xml
+junit-xml/
+
+# Spring Boot
+spring-boot-*.log
+
+# =============================================
+# 🔐 敏感文件 - 禁止提交
+# =============================================
+
+# SSH 私钥
+*.pem
+*.ppk
+id_rsa
+id_rsa.pub
+id_dsa
+id_dsa.pub
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# 证书
+*.crt
+*.cer
+*.cert
+*.p12
+*.pfx
+*.pem
+*.key
+*.priv
+
+
+known_hosts
+authorized_keys
+
+# 配置中的密码/密钥占位符（确保不提交真实凭证）
+# application*.yml 中包含真实密码时请使用环境变量
